@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://jianshen92.github.io/fastpage-js/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jianshen92.github.io/fastpage-js/" rel="alternate" type="text/html" /><updated>2020-03-30T12:55:47-05:00</updated><id>https://jianshen92.github.io/fastpage-js/feed.xml</id><title type="html">Git Gud with Data</title><subtitle>A data wanderer that is passionate on anything related to game and data.</subtitle><entry><title type="html">Odd or Even?</title><link href="https://jianshen92.github.io/fastpage-js/2020/03/30/Odds-Or-Evens.html" rel="alternate" type="text/html" title="Odd or Even?" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>https://jianshen92.github.io/fastpage-js/2020/03/30/Odds-Or-Evens</id><content type="html" xml:base="https://jianshen92.github.io/fastpage-js/2020/03/30/Odds-Or-Evens.html">&lt;blockquote&gt;
-  &lt;p&gt;You play a game of guessing the outcome of flipping two coins/frisbee. What should you guess?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;toc: true&lt;/li&gt;
-  &lt;li&gt;badges: true&lt;/li&gt;
-  &lt;li&gt;comments: true&lt;/li&gt;
-  &lt;li&gt;categories: [jupyter, game]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;play-the-game&quot;&gt;Play the Game&lt;/h2&gt;
-
-&lt;p&gt;You are playing in the finals of an ultimate game, and the wind is blowing hard. 10 Minutes before the game starts, captain of both finalist teams are inching towards each other, each holding a disc, and you are one of them. The team who wins the flip would get to start on the downwind side. Sam, the captain of the opposing team gives you the opportunity to call for the outcome of the flip. What would you call, EVENS or ODDS?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://jianshen92.github.io/fastpage-js/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jianshen92.github.io/fastpage-js/" rel="alternate" type="text/html" /><updated>2020-03-30T13:11:06-05:00</updated><id>https://jianshen92.github.io/fastpage-js/feed.xml</id><title type="html">Git Gud with Data</title><subtitle>A data wanderer that is passionate on anything related to game and data.</subtitle><entry><title type="html">Play the Game</title><link href="https://jianshen92.github.io/fastpage-js/2020/03/30/2020-03-31-Odds-Or-Evens.html" rel="alternate" type="text/html" title="Play the Game" /><published>2020-03-30T13:11:06-05:00</published><updated>2020-03-30T13:11:06-05:00</updated><id>https://jianshen92.github.io/fastpage-js/2020/03/30/2020-03-31-Odds-Or-Evens</id><content type="html" xml:base="https://jianshen92.github.io/fastpage-js/2020/03/30/2020-03-31-Odds-Or-Evens.html">&lt;p&gt;You are playing in the finals of an ultimate game, and the wind is blowing hard. 10 Minutes before the game starts, captain of both finalist teams are inching towards each other, each holding a disc, and you are one of them. The team who wins the flip would get to start on the downwind side. Sam, the captain of the opposing team gives you the opportunity to call for the outcome of the flip. What would you call, EVENS or ODDS?&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://www.maikaisogawa.com/wp-content/uploads/2018/12/discs.jpg&quot; alt=&quot;Frisbee image&quot; /&gt;&lt;/p&gt;
 
@@ -29,33 +16,29 @@
 
 &lt;p&gt;We find the probabilities of getting even and odds.&lt;/p&gt;
 
-&lt;p&gt;$
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{align}
-p(Evens) &amp;amp; = p(Heads)p(Heads) + p(Tails)p(Tails) &lt;br /&gt;
-&amp;amp; = x^2 + (1-x)^2 &lt;br /&gt;
-&amp;amp; = 2x^2 - 2x + 1
-\end{align}
-$&lt;/p&gt;
+p(Evens) &amp; = p(Heads)p(Heads) + p(Tails)p(Tails) \\
+&amp; = x^2 + (1-x)^2 \\
+&amp; = 2x^2 - 2x + 1
+\end{align} %]]&gt;&lt;/script&gt;
 
-&lt;p&gt;$
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{align}
-p(Odds) &amp;amp; = p(Heads)p(Tails) + p(Tails)p(Heads) &lt;br /&gt;
-&amp;amp; = 2 \times x(1-x) &lt;br /&gt;
-&amp;amp; = 2x - 2x^2
-\end{align}
-$&lt;/p&gt;
+p(Odds) &amp; = p(Heads)p(Tails) + p(Tails)p(Heads) \\
+&amp; = 2 \times x(1-x) \\
+&amp; = 2x - 2x^2
+\end{align} %]]&gt;&lt;/script&gt;
 
 &lt;p&gt;We find the difference in probability, i.e.&lt;/p&gt;
 
-&lt;p&gt;$
-\begin{align}
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{align}
 p(Evens)-p(Odds) = 4x^2 - 4x + 1 = y
-\end{align}
-$&lt;/p&gt;
+\end{align}&lt;/script&gt;
 
 &lt;h3 id=&quot;visualizing-it&quot;&gt;Visualizing it&lt;/h3&gt;
 &lt;p&gt;Let’s plot the graph of $ y = 4x^2 - 4x + 1 $
-&lt;img src=&quot;images/quadratic.png&quot; alt=&quot;Graph&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/fastpage-js/images/quadratic.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;what-do-we-see&quot;&gt;What do we see&lt;/h3&gt;
 &lt;p&gt;Given all probability $x$ from 0 to 1, $p(Evens)-p(Odds)$ is always greater than 0. In fact this is true for all $x \in \mathbb{R}$.&lt;/p&gt;
@@ -69,7 +52,7 @@ p(Evens) \geqslant p(Odds)
 
 &lt;p&gt;However, our environment is imperfect, e.g. asymmetry of frisbee disc, wind condition. It is safe to assume $x$, will deviate from 0.5.&lt;/p&gt;
 
-&lt;p&gt;Therefore, you’ll be correct by calling &lt;strong&gt;EVENS&lt;/strong&gt; at least half the time, if not more.&lt;/p&gt;</content><author><name></name></author><summary type="html">You play a game of guessing the outcome of flipping two coins/frisbee. What should you guess?</summary></entry><entry><title type="html">Git Gud Can’t Stop</title><link href="https://jianshen92.github.io/fastpage-js/fastpages/jupyter/2020/03/28/Git-Gud-for-Can't-Stop-Game.html" rel="alternate" type="text/html" title="Git Gud Can't Stop" /><published>2020-03-28T00:00:00-05:00</published><updated>2020-03-28T00:00:00-05:00</updated><id>https://jianshen92.github.io/fastpage-js/fastpages/jupyter/2020/03/28/Git-Gud-for-Can't-Stop-Game</id><content type="html" xml:base="https://jianshen92.github.io/fastpage-js/fastpages/jupyter/2020/03/28/Git-Gud-for-Can't-Stop-Game.html">&lt;!--
+&lt;p&gt;Therefore, you’ll be correct by calling &lt;strong&gt;EVENS&lt;/strong&gt; at least half the time, if not more.&lt;/p&gt;</content><author><name></name></author><summary type="html">You are playing in the finals of an ultimate game, and the wind is blowing hard. 10 Minutes before the game starts, captain of both finalist teams are inching towards each other, each holding a disc, and you are one of them. The team who wins the flip would get to start on the downwind side. Sam, the captain of the opposing team gives you the opportunity to call for the outcome of the flip. What would you call, EVENS or ODDS?</summary></entry><entry><title type="html">Git Gud Can’t Stop</title><link href="https://jianshen92.github.io/fastpage-js/fastpages/jupyter/2020/03/28/Git-Gud-for-Can't-Stop-Game.html" rel="alternate" type="text/html" title="Git Gud Can't Stop" /><published>2020-03-28T00:00:00-05:00</published><updated>2020-03-28T00:00:00-05:00</updated><id>https://jianshen92.github.io/fastpage-js/fastpages/jupyter/2020/03/28/Git-Gud-for-Can't-Stop-Game</id><content type="html" xml:base="https://jianshen92.github.io/fastpage-js/fastpages/jupyter/2020/03/28/Git-Gud-for-Can't-Stop-Game.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
