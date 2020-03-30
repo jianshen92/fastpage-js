@@ -1,16 +1,21 @@
 ---
-toc: true
+title: Odd or Even?
 layout: post
-- badges: true
-- comments: true
+badges: true
+comments: true
 description: You play a game of guessing the outcome of flipping two coins/frisbee. What should you guess?
 categories: [markdown, game]
-title: Odd or Even?
 ---
+
+# Odd or Even?
 
 ## Play the Game
 
-You are playing in the finals of an ultimate game, and the wind is blowing hard. 10 Minutes before the game starts, captain of both finalist teams are inching towards each other, each holding a disc, and you are one of them. The team who wins the flip would get to start on the downwind side. Sam, the captain of the opposing team gives you the opportunity to call for the outcome of the flip. What would you call, EVENS or ODDS?
+You are playing in the finals of an ultimate game, and the wind is blowing hard. 
+
+10 Minutes before the game starts, captain of both finalist teams are inching towards each other, each holding a disc, and you are one of them. 
+
+The team who wins the flip would get to start on the downwind side. Sam, the captain of the opposing team gives you the opportunity to call for the outcome of the flip. What would you call, EVENS or ODDS?
 
 ![Frisbee image](http://www.maikaisogawa.com/wp-content/uploads/2018/12/discs.jpg)
 
