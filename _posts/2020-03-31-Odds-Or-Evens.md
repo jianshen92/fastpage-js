@@ -1,10 +1,12 @@
-# Odd or Even?
-> You play a game of guessing the outcome of flipping two coins/frisbee. What should you guess?
-
-- toc: true 
+---
+toc: true
+layout: post
 - badges: true
 - comments: true
-- categories: [jupyter, game]
+description: You play a game of guessing the outcome of flipping two coins/frisbee. What should you guess?
+categories: [markdown, game]
+title: Odd or Even?
+---
 
 ## Play the Game
 
@@ -26,33 +28,33 @@ $p(Tails) = 1-x$
 
 We find the probabilities of getting even and odds.
 
-$
+$$
 \begin{align}
 p(Evens) & = p(Heads)p(Heads) + p(Tails)p(Tails) \\
 & = x^2 + (1-x)^2 \\
 & = 2x^2 - 2x + 1
 \end{align}
-$
+$$
 
-$
+$$
 \begin{align}
 p(Odds) & = p(Heads)p(Tails) + p(Tails)p(Heads) \\
 & = 2 \times x(1-x) \\
 & = 2x - 2x^2
 \end{align}
-$
+$$
 
 We find the difference in probability, i.e. 
 
-$
+$$
 \begin{align}
 p(Evens)-p(Odds) = 4x^2 - 4x + 1 = y
 \end{align}
-$
+$$
 
 ### Visualizing it
 Let's plot the graph of $ y = 4x^2 - 4x + 1 $
-![Graph](images/quadratic.png)
+![]({{ site.baseurl }}/images/quadratic.png)
 
 ### What do we see
 Given all probability $x$ from 0 to 1, $p(Evens)-p(Odds)$ is always greater than 0. In fact this is true for all $x \in \mathbb{R}$.
